@@ -41,15 +41,6 @@ public class BaseClass {
 	protected AdminOrdersPage adminOrdersPage;
 	protected SoftAssert soft;
 
-
-	//Test
-	//Test1
-
-	//Test conflict
-
-
-	//Test merge conflit
-
 	public static WebDriver sdriver;
 	public static JavaUtility sjavaUtility;
 	/**
