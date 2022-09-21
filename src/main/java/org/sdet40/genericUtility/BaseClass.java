@@ -41,12 +41,6 @@ public class BaseClass {
 	protected AdminOrdersPage adminOrdersPage;
 	protected SoftAssert soft;
 	
-	
-	
-	
-	
-	
-	// Baseclass updated in branch SDET40-1
 	public static WebDriver sdriver;
 	public static JavaUtility sjavaUtility;
 	/**
