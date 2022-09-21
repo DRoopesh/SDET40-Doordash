@@ -40,8 +40,12 @@ public class BaseClass {
 	protected AdminHomePage adminHomePage;
 	protected AdminOrdersPage adminOrdersPage;
 	protected SoftAssert soft;
+
 	//Test
 	//Test1
+
+	//Test conflict
+
 	public static WebDriver sdriver;
 	public static JavaUtility sjavaUtility;
 	/**
