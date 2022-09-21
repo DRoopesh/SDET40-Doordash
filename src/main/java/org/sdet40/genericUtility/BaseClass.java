@@ -41,7 +41,6 @@ public class BaseClass {
 	protected AdminOrdersPage adminOrdersPage;
 	protected SoftAssert soft;
 	
-	// Baseclass updated in line 44
 	public static WebDriver sdriver;
 	public static JavaUtility sjavaUtility;
 	/**
