@@ -10,6 +10,5 @@ public class RetryToListener implements IAnnotationTransformer {
 
 	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
 		annotation.setRetryAnalyzer(org.sdet40.genericUtility.RetryImplementation.class);
-		
 	}
 }
