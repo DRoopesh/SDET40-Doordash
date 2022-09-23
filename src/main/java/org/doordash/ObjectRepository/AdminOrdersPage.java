@@ -44,7 +44,7 @@ public class AdminOrdersPage {
 	@FindBy(xpath="//h4[text()='View Order']")
 	private WebElement adminEditOrdersPageText;
 	
-	@FindBy(xpath="//td[contains(text(),'drv')]//following::td[7]//i[@class='fa fa-trash-o']")
+	@FindBy(xpath="//td[contains(text(),'manojbh')]//following::td[7]//i[@class='fa fa-trash-o']")
 	private WebElement drvDeleteBtn;
 	
 	public String getAdminEditOrdersPageText() {
@@ -90,9 +90,7 @@ public class AdminOrdersPage {
 		 for(int i=0; i<=(deleteBtns.size()-1);i++) {
 			 drvDeleteBtn.click();
 			 webDriverUtility.acceptAlert(driver);
-			 count++;
 		}
-		System.out.println(count);
 	}
 
 	public void verifyOrder(String actualStatus, String expOrderStatus) {

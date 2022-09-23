@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class DeleteOrdersTest extends BaseClass{
 	@Test
 	public void deleteOrdersPlacedByCustomer() throws InterruptedException {
-		String customerName = "drv";
+		String customerName = "manojbh";
 		webDriverUtility.navigateTheApplication(driver, map.get("adminurl"));
 		adminHomePage.loginAction(map.get("adminusername"), map.get("adminpassword"));
 		adminHomePage.clickOnOrdersBtn();

@@ -106,13 +106,13 @@ public class BaseClass {
 		 */
 		@BeforeMethod
 		public void methodSetUp1() {
-			loginPage.loginAction(username, password);
+//			loginPage.loginAction(username, password);
 		}
 		
 		//Logout of the application
 		@AfterMethod
 		public void methodSetUp2() {
-			webDriverUtility.logoutAction(driver);
+//			webDriverUtility.logoutAction(driver);
 		}
 		
 		@AfterClass

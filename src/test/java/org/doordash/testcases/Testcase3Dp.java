@@ -17,7 +17,8 @@ public class Testcase3Dp extends BaseClass{
 		webDriverUtility.verifyPage(soft, orderAndPayPage.getPayAndOrderPageText(), map.get("userOrderAndPayPageText"));		
 		orderAndPayPage.ClickCashOnDelivery(driver, webDriverUtility, Timeouts);
 		orderAndPayPage.ClickOrderNowButton();
-		webDriverUtility.acceptAlert(driver);
+
+//		webDriverUtility.acceptAlert(driver);
 		webDriverUtility.acceptAlert(driver);
 		System.out.println(message);
 		webDriverUtility.verifyPage(soft, myOrdersPage.getMyOrdersPageText(), map.get("myOrdersPageText"));

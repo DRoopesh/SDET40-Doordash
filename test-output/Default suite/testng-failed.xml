@@ -3,11 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sdet40.practise.AssertPractice">
+      <class name="org.doordash.testcases.Testcase3Dp">
         <methods>
-          <include name="test1"/>
+          <include name="classSetup"/>
+          <include name="methodSetUp2"/>
+          <include name="methodSetUp1"/>
+          <include name="testCase3Test" invocation-numbers="0"/>
+          <include name="classTearDown"/>
         </methods>
-      </class> <!-- org.sdet40.practise.AssertPractice -->
+      </class> <!-- org.doordash.testcases.Testcase3Dp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
